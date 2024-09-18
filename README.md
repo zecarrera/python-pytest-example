@@ -9,13 +9,16 @@ TODO: replace this with a requirements file to facilitate installing dependencie
 
 
 ## How to run tests
-If using pyCharm, you can either right-click the file name and select run tests OR within the test file click the Run Icon.
+### Using pyCharm
+- right-click the file name and select run tests
+- click the run icon shown beside the method definition
 
-If running the tests from the terminal you can do.
+### Running from the terminal
 
-`pytest tests/test_my_functions.py`
-
-If you want any print statements or logging to be output to the terminal you can add `-s` parameter, which will enable all output to be displayed even if a test passes.
+- Run all existing tests -> `pytest`
+- Run specific test file -> `pytest tests/test_my_functions.py`
+- Enable print statements and logging to be output even for passing tests -> `pytest tests/test_my_functions.py -s`
+- Run tests with specifc TAG -> `pytest -m "slow"`
 
 
 ## References
