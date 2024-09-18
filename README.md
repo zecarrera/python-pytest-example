@@ -1,12 +1,17 @@
 ## Summary
 This repo contains an example usage of pytest.
 
+It includes examples with:
+- Setup and teardown methods
+- Pytest mark to specify test tags
+- Pytest parametrize on test inputs
+- Pytest fixtures (local and global)
+- Mocking with unittest
+
 ## Setup
-You will need python installed
-Project uses pytest, so you need to run `pip install pytest`
+Ensure python is installed
 
-TODO: replace this with a requirements file to facilitate installing dependencies
-
+Project uses a couple of libs, so you need to run `pip3 install pytest requests`
 
 ## How to run tests
 ### Using pyCharm
@@ -18,9 +23,10 @@ TODO: replace this with a requirements file to facilitate installing dependencie
 - Run all existing tests -> `pytest`
 - Run specific test file -> `pytest tests/test_my_functions.py`
 - Enable print statements and logging to be output even for passing tests -> `pytest tests/test_my_functions.py -s`
-- Run tests with specifc TAG -> `pytest -m "slow"`
+- Run tests with specific TAG -> `pytest -m "slow"`
 
 
 ## References
 
 [FreeCodeCamp - Pytest Tutorial](https://www.youtube.com/watch?v=cHYq1MRoyI0)
+[JSON PlaceHolder API](https://jsonplaceholder.typicode.com/)
