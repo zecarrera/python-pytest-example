@@ -19,10 +19,10 @@ Project uses a couple of libs, so you need to run `pip3 install pytest requests`
 - click the run icon shown beside the method definition
 
 ### Running from the terminal
-
+navigate to tests directory: `cd test`
 - Run all existing tests -> `pytest`
-- Run specific test file -> `pytest tests/test_my_functions.py`
-- Enable print statements and logging to be output even for passing tests -> `pytest tests/test_my_functions.py -s`
+- Run specific test file -> `pytest test_my_functions.py`
+- Enable print statements and logging to be output even for passing tests -> `pytest test_my_functions.py -s`
 - Run tests with specific TAG -> `pytest -m "slow"`
 
 
