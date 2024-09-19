@@ -7,11 +7,12 @@ It includes examples with:
 - Pytest parametrize on test inputs
 - Pytest fixtures (local and global)
 - Mocking with unittest
+- Using behave to add a BDD layer on top of tests
 
 ## Setup
 Ensure python is installed
 
-Project uses a couple of libs, so you need to run `pip3 install pytest requests`
+Project uses a couple of libs, so you need to run `pip3 install pytest requests behave`
 
 ## How to run tests
 ### Using pyCharm
@@ -19,12 +20,17 @@ Project uses a couple of libs, so you need to run `pip3 install pytest requests`
 - click the run icon shown beside the method definition
 
 ### Running from the terminal
+
+#### Running Pytest
 navigate to tests directory: `cd test`
 - Run all existing tests -> `pytest`
 - Run specific test file -> `pytest test_my_functions.py`
 - Enable print statements and logging to be output even for passing tests -> `pytest test_my_functions.py -s`
 - Run tests with specific TAG -> `pytest -m "slow"`
 
+#### Running BDD scenarios with behave
+navigate to tests directory: `cd test`
+- Run all existing tests -> `behave`
 
 ## References
 
