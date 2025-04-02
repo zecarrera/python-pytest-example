@@ -22,14 +22,14 @@ Project uses a couple of libs, so you need to run `pip3 install pytest requests 
 ### Running from the terminal
 
 #### Running Pytest
-navigate to tests directory: `cd test`
+Navigate to tests directory: `cd tests`
 - Run all existing tests -> `pytest`
 - Run specific test file -> `pytest test_my_functions.py`
 - Enable print statements and logging to be output even for passing tests -> `pytest test_my_functions.py -s`
 - Run tests with specific TAG -> `pytest -m "slow"`
 
 #### Running BDD scenarios with behave
-navigate to tests directory: `cd test`
+Navigate to tests directory: `cd tests`
 - Run all existing tests -> `behave`
 
 ## References
